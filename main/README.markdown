@@ -3,8 +3,8 @@
 A Pen created on CodePen.io. Original URL: [https://codepen.io/mojonapower/pen/GRoRNGX](https://codepen.io/mojonapower/pen/GRoRNGX).
 
 * [Javascript](http://jsfiddle.net/FvMYz/) 
-  by [stackoverflow-user113716](http://stackoverflow.com/users/113716/user113716)
-  and [@mojonapower] (https://github.com/mojonapower)
+  by [stackoverflow-user113716](http://stackoverflow.com/users/113716/user113716),  [@mojonapower](https://github.com/mojonapower) and [@cfloress](https://www.linkedin.com/in/claudio-andres-flores-sapiain/)
+
 * [CSS](https://gist.github.com/toddparker/32fc9647ecc56ef2b38a) by
 [Todd Parker](https://twitter.com/toddmparker)
 
