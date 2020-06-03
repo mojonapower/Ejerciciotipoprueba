@@ -48,9 +48,9 @@ function scanCode()
         mensaje("Captura Cancelada.");
               //resultado="We got a barcode\n" +"Result: " + result.text + "\n" +"Format: " + result.format + "\n" +"Cancelled: " + result.cancelled;
           msj=result.text;
-          alert(msj);
+          alert("las coordenadas son :"+msj);
               
-            var p1 = document.createElement("p");
+            var p1 = document.createElement("pCodigo");
             p1.innerHTML = msj;
            document.getElementById('pCodigo').appendChild(p1);
          }, 
