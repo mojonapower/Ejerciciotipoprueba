@@ -20,18 +20,26 @@
 
 <div class="output">
   <div id="op1" class="op red" >  
+  <h2>Fuerza bruta</h2>
     <input type="text" id="UsuarioFuerzaBruta" placeholder="UsuarioQR" />
     <input type="text" id="UbicacionManual" placeholder="latitud,longitud" />
     
     <button onclick="FuerzaBruta()">Enviar</button>
   </div>
   <div id="op2" class="op yellow" > 
+  <h2> optimizada</h2>
     <input type="text" name="UsuarioQR" placeholder="UsuarioQR" />
     <button class ="gps">Detectar Ubicación</button>
     <input type="submit" value="enviar" />
   </div>
   <div id="op3" class="op blue" > 
     <h2>Leer código QR (procure ejecutar desde la apliación)</h2>
+    <h3>resultado: </h3>
+    <label id="pCodigo"></label>
+    <div style="text-align: center;">
+      <input type="button" onclick="scanCode();" value="Leer Código Barra / QR" style="width: 90%;margin-top: 12px;">
+      </div>
+
     
   </div>
   <div id="urlresultado"></div>
