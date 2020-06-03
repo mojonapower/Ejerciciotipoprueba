@@ -47,7 +47,7 @@ function scanCode()
               mensaje("Captura Cancelada.");
               //resultado="We got a barcode\n" +"Result: " + result.text + "\n" +"Format: " + result.format + "\n" +"Cancelled: " + result.cancelled;
           msj=result.text;
-          mensaje(msj);
+          alert(msj);
               
             var p1 = document.createElement("p");
             p1.innerHTML = msj;
