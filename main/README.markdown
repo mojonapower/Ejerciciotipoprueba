@@ -4,9 +4,10 @@ A Pen created on CodePen.io. Original URL: [https://codepen.io/mojonapower/pen/G
 
 * [Javascript](http://jsfiddle.net/FvMYz/) 
   by [stackoverflow-user113716](http://stackoverflow.com/users/113716/user113716)
+  and [@mojonapower] (https://github.com/mojonapower)
 * [CSS](https://gist.github.com/toddparker/32fc9647ecc56ef2b38a) by
 [Todd Parker](https://twitter.com/toddmparker)
-* [Javascript](jquery, selector) 
-  by @mojonapower (https://github.com/mojonapower)
+
+  
 
 
