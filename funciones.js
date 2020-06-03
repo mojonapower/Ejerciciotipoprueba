@@ -43,8 +43,9 @@ function scanCode()
               
           var msj='';
           //var detCapturado='';
+          alert(msj)
           if(result.cancelled==true)
-              mensaje("Captura Cancelada.");
+        mensaje("Captura Cancelada.");
               //resultado="We got a barcode\n" +"Result: " + result.text + "\n" +"Format: " + result.format + "\n" +"Cancelled: " + result.cancelled;
           msj=result.text;
           alert(msj);
@@ -54,7 +55,7 @@ function scanCode()
            document.getElementById('pCodigo').appendChild(p1);
          }, 
         function (error) {
-            mensaje("Captura Fallida: " + error);
+            alert("Captura Fallida: " + error);
         }
     );//fin scan plugin cordova
        
