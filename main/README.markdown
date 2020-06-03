@@ -1,4 +1,4 @@
-# Show-Hide based on Select Option jQuery(forked)
+# Show-Hide based on Select Option jQuery(forked by @mojonapower)
 
 A Pen created on CodePen.io. Original URL: [https://codepen.io/mojonapower/pen/GRoRNGX](https://codepen.io/mojonapower/pen/GRoRNGX).
 
@@ -6,3 +6,7 @@ A Pen created on CodePen.io. Original URL: [https://codepen.io/mojonapower/pen/G
   by [stackoverflow-user113716](http://stackoverflow.com/users/113716/user113716)
 * [CSS](https://gist.github.com/toddparker/32fc9647ecc56ef2b38a) by
 [Todd Parker](https://twitter.com/toddmparker)
+* [Javascript](jquery, selector) 
+  by @mojonapower (https://github.com/mojonapower)
+
+
