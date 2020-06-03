@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>Demo</title>
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+   <!--<script src="js/jquery-1.10.2.js"></script>-->
+   <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+
+   <script src="js/sql.js"></script>
+
+   <script src="js/jquery-ui.js"></script>  
+
+<link rel="stylesheet" href="css/styles.css">  
+</head>
+<body>
+
+	<div data-role="page" id="pageBuscar">
+    <div class="img-head"></div>
+	
+		<!--lateral menu-->
+
+ 
+ <!--fin lateral menu-->
+ <div data-role="content" role="main">
+            	 <div id="areaTxt" align="center">
+            	 	<h1>Demo SQLITE - 2020</h1>
+ 	
+            		<div style="text-align: center;">
+            	 		<input type="button" onclick="sql();" value="Iniciar/Mostrar BD Ejemplo 1" style="width: 90%;margin-top: 12px;">
+            	 	</div>
+            	 	<div style="text-align: center;">
+            	 		<input type="button" onclick="sql2();" value="Iniciar/Mostrar BD Ejemplo 2" style="width: 90%;margin-top: 12px;">
+            	 	</div>
+            	 	<div class="modal-content">
+					<h4>Lista de contactos</h4>
+					<p id="lista_de_contactos"></p>
+				</div>
+            	</div>
+</div><!--content-->
+</div><!--page-->
+</body>
+</html> 

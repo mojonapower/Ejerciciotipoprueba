@@ -1,0 +1,26 @@
+<label class="wrapper" for="states">Seleccione la opción deseada</label>
+<div class="button dropdown"> 
+  <select id="selector">
+    <option value="op1o">Seleccione</option>
+     <option value="op1">Registrar QR(Fuerza bruta)</option>
+     <option value="op2">Registrar QR</option>
+     <option value="op3">proximamente</option>
+  </select>
+</div>
+
+<div class="output">
+  <div id="op1" class="op red" style="display: none">  
+    <input type="text" name="UsuarioQR" placeholder="UsuarioQR" />
+    <input type="text" name="ubicaciónmanual" placeholder="latitud,longitud" />
+    <input type="submit" value="Enviar" />
+  </div>
+  <div id="op2" class="op yellow" style="display: none"> 
+    <input type="text" name="UsuarioQR" placeholder="UsuarioQR" />
+    <button class ="gps">Detectar Ubicación</button>
+    <input type="submit" value="enviar" />
+  </div>
+  <div id="op3" class="op blue" style="display: none"> 
+    <h2>Proximamente</h2>
+    
+  </div>
+</div>

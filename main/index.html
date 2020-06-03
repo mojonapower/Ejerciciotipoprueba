@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplo solemne - Show-Hide based on Select Option jQuery(forked)</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<label class="wrapper" for="states">Seleccione la opción deseada</label>
+<div class="button dropdown"> 
+  <select id="selector">
+    <option value="op1o">Seleccione</option>
+     <option value="op1">Registrar QR(Fuerza bruta)</option>
+     <option value="op2">Registrar QR</option>
+     <option value="op3">proximamente</option>
+  </select>
+</div>
+
+<div class="output">
+  <div id="op1" class="op red" style="display: none">  
+    <input type="text" id="UsuarioFuerzaBruta" placeholder="UsuarioQR" />
+    <input type="text" id="UbicacionManual" placeholder="latitud,longitud" />
+    
+    <button onclick="FuerzaBruta()">Enviar</button>
+  </div>
+  <div id="op2" class="op yellow" style="display: none"> 
+    <input type="text" name="UsuarioQR" placeholder="UsuarioQR" />
+    <button class ="gps">Detectar Ubicación</button>
+    <input type="submit" value="enviar" />
+  </div>
+  <div id="op3" class="op blue" style="display: none"> 
+    <h2>Proximamente</h2>
+    
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script  src="./selector.js"></script>
+  <script  src="./funciones.js"></script>
+  <script  src="./jquery.js"></script>
+
+
+
+</body>
+</html>
