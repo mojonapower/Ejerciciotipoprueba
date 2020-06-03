@@ -23,8 +23,9 @@ function FuerzaBruta(){
             },
             // acciones cuando me retorna algo el PHP
             success: function(msg){
-                alert(msg);
-                
+                alert(msg+ "Información enviada con éxito");
+                var direccion='http://72.14.183.67/ws/qr/archivos_qr/'+usuario+"_qr.html"
+                document.getElementById('urlresultado').innerHTML = "<a href="+' " '+direccion+'">'+ 'Ingrese aca </a>';
             },							
             // acciones cuando hay error en comunicacion el el php
             error: function(xhr, status,msg2 ){
